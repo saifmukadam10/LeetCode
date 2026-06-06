@@ -1,7 +1,7 @@
 class Solution:
     def longestCommonPrefix(self, strs: list[str]) -> str:
         ans = ""
-        # strs = sorted(strs)
+        strs = sorted(strs)
         first = strs[0]
         last = strs[-1]
 
@@ -11,3 +11,6 @@ class Solution:
             ans += first[i]
 
         return ans
+
+strs = ["flower","flow","flight"]
+print(Solution().longestCommonPrefix(strs))
