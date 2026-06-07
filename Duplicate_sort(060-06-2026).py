@@ -10,4 +10,6 @@ class Solution:
                 nums[j] = nums[i]  # Assign the unique element
 
         return j + 1  # Return the length of the list with unique elements
+nums = [1, 1, 2]
+print(Solution().removeDuplicates(nums))  # Output: 2
         
