@@ -6,3 +6,5 @@ class Solution:
                 nums[write_index] = nums[i]
                 write_index += 1
         return write_index
+nums = [3, 2, 2, 3]
+val = 3
