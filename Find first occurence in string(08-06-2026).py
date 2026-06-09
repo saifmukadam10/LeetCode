@@ -6,4 +6,4 @@ class Solution:
         return -1
     haystack = "hello"
     needle = "ll"   
-    
+    print(Solution().strStr(haystack, needle))  # Output: 2
