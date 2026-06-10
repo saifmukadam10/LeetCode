@@ -15,4 +15,4 @@ class Solution:
         return left
 nums = [1, 3, 5, 6]
 target = 5
-        
+print(Solution().insertElement(nums, target))  # Output: 2  
