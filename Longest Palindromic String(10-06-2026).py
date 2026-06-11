@@ -23,4 +23,6 @@ class Solution:
                 end = 1 + max_len // 2
         return s[start:end+1]
 s = "babad"
-print(Solution().longestPalindrome(s))  # Output: "aba" or "bab"
+print(Solution().longestPalindrome(s))  
+# Output: "aba" or "bab"
+
