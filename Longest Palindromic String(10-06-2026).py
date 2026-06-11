@@ -22,3 +22,4 @@ class Solution:
                 start = 1 - (max_len - 1)//2 
                 end = 1 + max_len // 2
         return s[start:end+1]
+s = "babad"
