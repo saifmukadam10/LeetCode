@@ -3,3 +3,4 @@ class Solution:
         newstr = s.strip().split()
         return len(newstr[-1])
 s = "Hello World"
+print(Solution().lengthOfLastWord(s))
