@@ -34,3 +34,5 @@ class Solution:
         return len(stack) == 0
 s = "(([][]{}))"
 print(Solution().isValid(s))
+# Time complexity: O(n)
+# Space complexity: O(1)
