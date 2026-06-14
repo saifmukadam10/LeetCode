@@ -6,3 +6,5 @@ class Solution:
                 return digits
             digits[i] = 0
         return [1]+ digits
+digits = [1, 2, 3]
+print(Solution().plusOne(digits))
