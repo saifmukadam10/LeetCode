@@ -11,9 +11,17 @@ class Solution:
 
             if i>= 0:
                 total += int(a[i])
+                i -= 1
             if j>=0:
                 total+= int(b[j])
-            answer.append(str[total % 2])
+                j -= 1
+            answer.append(str(total % 2))
             carry = total // 2
 
         return "".join(reversed(answer))
+    
+a = "1010"
+b = "1011"
+print(Solution().addBinary(a, b))
+# Time complexity: O(max(m, n)) 
+
