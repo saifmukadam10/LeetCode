@@ -15,3 +15,5 @@ class Solution:
             left += 1
             right -= 1
         return True
+s = "A man, a plan, a canal: Panama"
+print(Solution().isPalindrome(s))    
