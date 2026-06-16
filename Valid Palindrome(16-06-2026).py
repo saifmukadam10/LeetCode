@@ -16,4 +16,6 @@ class Solution:
             right -= 1
         return True
 s = "A man, a plan, a canal: Panama"
-print(Solution().isPalindrome(s))    
+print(Solution().isPalindrome(s))  
+time complexity: O(n)
+space complexity: O(n)  
