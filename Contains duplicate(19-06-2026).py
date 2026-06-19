@@ -7,6 +7,17 @@ class Solution:
             if nums[i] == nums[i-1]:
                 return True
         return False
-nums = [1, 2, 3, 5]
-print(Solution().containsDuplicate(nums))
+
+    def containsDuplicate2(self, nums :list[int]) -> bool:
+        #HASH SET APPROACH
+        seen = set()
+        for num in nums:
+            if num in seen:
+                return True
+            seen.add(num)
+        return False
+
+    
+nums = [1, 2, 3, 1]
+print(Solution().containsDuplicate2(nums))
 # time complexity: O(n log n) due to sorting
