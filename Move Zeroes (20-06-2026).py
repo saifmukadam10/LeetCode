@@ -10,3 +10,6 @@ class Solution:
 
 nums = [0,1,2,4,0]
 print(Solution().moveZeroes(nums))
+
+#Time Complexity - O(n)
+#Space - O(1)
