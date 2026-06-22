@@ -14,3 +14,5 @@ class Solution:
             second_buy = min(second_buy, prices[i] - first_profit)
             second_profit = max(second_profit, prices[i] - second_buy)
         return second_profit
+prices = [3,3,5,0,0,3,1,4]
+print(Solution().maxProfit(prices))
