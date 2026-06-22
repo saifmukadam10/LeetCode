@@ -16,3 +16,5 @@ class Solution:
         return second_profit
 prices = [3,3,5,0,0,3,1,4]
 print(Solution().maxProfit(prices))
+time complexity: O(n)
+space complexity: O(1)
