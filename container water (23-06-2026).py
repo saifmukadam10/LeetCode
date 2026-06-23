@@ -16,5 +16,7 @@ class Solution:
                 right -=1
 
         return max_water
+height = [1,8,6,2,5,4,8,3,7]
+print(Solution().maxArea(height))
 
         
