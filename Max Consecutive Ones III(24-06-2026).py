@@ -22,3 +22,5 @@ class Solution:
 nums = [1,1,1,0,0,0,1,1,1,1,0]
 k = 2
 print(Solution().longestOnes(nums, k))
+# time complexity: O(n)
+# space complexity: O(1)
