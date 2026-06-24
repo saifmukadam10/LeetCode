@@ -19,3 +19,6 @@ class Solution:
             max_len = max(max_len, right - left + 1)
             
         return max_len
+nums = [1,1,1,0,0,0,1,1,1,1,0]
+k = 2
+print(Solution().longestOnes(nums, k))
