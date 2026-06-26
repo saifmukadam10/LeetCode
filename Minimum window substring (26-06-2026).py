@@ -27,4 +27,7 @@ class Solution:
                 start += 1
 
         return "" if min_len == float('inf') else s[start_index:start_index + min_len]
+s="ADOBECODEBANC"
+t="ABC"
+print(Solution().minWindow(s, t))
         
