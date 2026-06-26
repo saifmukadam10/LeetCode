@@ -30,4 +30,5 @@ class Solution:
 s="ADOBECODEBANC"
 t="ABC"
 print(Solution().minWindow(s, t))
+#time complexity: O(n)
         
