@@ -14,4 +14,7 @@ class Solution:
             suf *= nums[i]
 
         return res
+    
+nums = [1, 2, 3, 4]
+print(Solution().productExceptSelf(nums))
         
