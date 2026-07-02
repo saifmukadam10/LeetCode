@@ -17,4 +17,5 @@ class Solution:
     
 nums = [1, 2, 3, 4]
 print(Solution().productExceptSelf(nums))
+#time complexity is O(n) and space complexity is O(1)
         
