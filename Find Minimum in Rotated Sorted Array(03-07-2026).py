@@ -15,3 +15,4 @@ class Solution:
         return nums[l]
 nums = [3, 4, 5, 1, 2]
 print(Solution().findMin(nums))
+#time complexity is O(log n) and space complexity is O(1)
