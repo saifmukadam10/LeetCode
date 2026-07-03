@@ -13,3 +13,5 @@ class Solution:
                 l = mid + 1
 
         return nums[l]
+nums = [3, 4, 5, 1, 2]
+print(Solution().findMin(nums))
