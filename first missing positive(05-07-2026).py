@@ -12,4 +12,6 @@ class Solution:
         
         # Step 3: If all numbers 1 to n are present, return n + 1
         return len(nums) + 1
+nums = [3, 4, -1, 1]
+print(Solution().firstMissingPositive(nums))
         
