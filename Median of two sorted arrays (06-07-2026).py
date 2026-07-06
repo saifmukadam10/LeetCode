@@ -33,3 +33,9 @@ class Solution:
             else:
                 # We are too far left in nums1, move right
                 left = partition1 + 1
+
+# Example usage
+nums1 = [1, 3]
+nums2 = [2]
+solution = Solution()
+print(solution.findMedianSortedArrays(nums1, nums2))  # Output: 2.0
