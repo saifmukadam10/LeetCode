@@ -14,3 +14,6 @@ class Solution:
             
         # Compare the two dictionaries
         return count_s == count_t
+s = "anagram"
+t = "nagaram"
+print(Solution().isAnagram(s, t))  # Output: True
