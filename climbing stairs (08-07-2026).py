@@ -8,3 +8,5 @@ class Solution:
             curr = prev + curr
             prev = temp
         return curr
+n = 5
+print(Solution().climbStairs(n))  # Output: 8
