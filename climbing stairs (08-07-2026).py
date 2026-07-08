@@ -10,3 +10,4 @@ class Solution:
         return curr
 n = 5
 print(Solution().climbStairs(n))  # Output: 8
+#time complexity is O(n) and space complexity is O(1)
