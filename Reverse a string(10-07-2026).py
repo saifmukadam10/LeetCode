@@ -8,3 +8,6 @@ class Solution:
         s[left],s[right] = s[right], s[left]
         left += 1
         right -=1
+s = ["h","e","l","l","o"]
+Solution().reverseString(s)
+print(s)
