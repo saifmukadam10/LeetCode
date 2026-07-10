@@ -11,3 +11,4 @@ class Solution:
 s = ["h","e","l","l","o"]
 Solution().reverseString(s)
 print(s)
+#time complexity is O(n) and space complexity is O(1)
