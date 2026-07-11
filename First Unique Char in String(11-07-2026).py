@@ -14,3 +14,4 @@ class Solution:
         return -1
 s = "leetcode"
 print(Solution().firstUniqChar(s))
+#time complexity is O(n) and space complexity is O(n)
