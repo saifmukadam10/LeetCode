@@ -12,3 +12,5 @@ class Solution:
                 return i
         
         return -1
+s = "leetcode"
+print(Solution().firstUniqChar(s))
