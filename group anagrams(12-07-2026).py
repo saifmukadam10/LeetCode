@@ -7,6 +7,8 @@ class Solution:
             anagram_map[sorted_word].append(word)
         
         return list(anagram_map.values())
+strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
+print(Solution().groupAnagrams(strs))
         
         
         
