@@ -23,4 +23,6 @@ class Solution:
                     max_delta = max(max_delta, left_zero_len + right_zero_len)
                     
         return initial_ones + max_delta
+s = "110001100"
+print(Solution().maxActiveSectionsAfterTrade(s))
         
