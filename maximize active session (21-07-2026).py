@@ -25,4 +25,5 @@ class Solution:
         return initial_ones + max_delta
 s = "110001100"
 print(Solution().maxActiveSectionsAfterTrade(s))
+#time complexity is O(n) and space complexity is O(n)
         
