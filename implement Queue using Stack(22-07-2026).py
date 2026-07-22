@@ -29,3 +29,8 @@ class MyQueue:
     def empty(self) -> bool:
         return not self.in_stack and not self.out_stack
 
+        
+
+
+# Your MyQueue object will be instantiated and called as such:
+ 
