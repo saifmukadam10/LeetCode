@@ -23,3 +23,6 @@ class Solution:
         temp.next = curr1 if curr1 else curr2
 
         return dummyNode.next
+list1 = ListNode(1, ListNode(2, ListNode(4)))
+list2 = ListNode(1, ListNode(3, ListNode(4)))   
+print(Solution().mergeTwoLists(list1, list2))
