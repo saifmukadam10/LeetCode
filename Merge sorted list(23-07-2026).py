@@ -26,3 +26,4 @@ class Solution:
 list1 = ListNode(1, ListNode(2, ListNode(4)))
 list2 = ListNode(1, ListNode(3, ListNode(4)))   
 print(Solution().mergeTwoLists(list1, list2))
+#time complexity is O(n + m) and space complexity is O(1)
